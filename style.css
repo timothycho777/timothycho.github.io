@@ -1,29 +1,29 @@
 /* General styles */
 body {
-  font-family: Georgia, serif;
-  color: #333;
-  background-color: #f9f9f9;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fff;
   margin: 0;
   line-height: 1.6;
 }
 
 /* Header */
 header {
-  background-color: #e0f0ff;
-  color: #333;
+  background-color: #000;
+  color: #fff;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 header p {
   font-size: 1.2rem;
-  color: #555;
+  color: #ccc;
 }
 
 /* Main content */
@@ -40,41 +40,47 @@ section {
 
 section h2 {
   font-size: 1.5rem;
-  border-bottom: 2px solid #c0d6df;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
-  color: #444;
+  color: #111;
 }
 
-/* Project boxes */
 .project {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   border-radius: 5px;
   padding: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  background: #fff;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.project:hover {
+  background: #000;
+  color: #fff;
 }
 
 .project h3 {
   margin-top: 0;
-  color: #333;
+  font-weight: 500;
 }
 
 /* Links */
 a {
-  color: #0066cc;
+  color: #000;
   text-decoration: none;
+  border-bottom: 1px solid #000;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #fff;
+  background-color: #000;
 }
 
 /* Footer */
 footer {
-  background-color: #e0f0ff;
-  color: #333;
+  background-color: #000;
+  color: #ccc;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
