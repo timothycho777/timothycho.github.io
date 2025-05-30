@@ -1,0 +1,81 @@
+/* General styles */
+body {
+  font-family: Georgia, serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #e0f0ff;
+  color: #333;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #c0d6df;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Project boxes */
+.project {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #e0f0ff;
+  color: #333;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
