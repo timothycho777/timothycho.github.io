@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Robotic Arm Project | Timothy Cho</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery, .cad-drawings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .gallery img, .cad-drawings img {
+      flex: 1 1 45%;
+      height: 200px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .gallery img, .cad-drawings img {
+        flex: 1 1 100%;
+        height: auto;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -30,33 +52,4 @@
         <li>Caleb Tseng</li>
         <li>Rachel Woo</li>
       </ul>
-    </section>
-
-    <section>
-      <h2>Skills Used</h2>
-      <p>SOLIDWORKS &middot; Soldering &middot; Orca Slicer</p>
-    </section>
-
-    <section>
-      <h2>Gallery</h2>
-      <img src="images/robot1.jpg" alt="1st Place in Rock-Paper-Scissors Competition" style="max-width:100%; height:auto;">
-      <img src="images/robot2.jpg" alt="Robotic Arm" style="max-width:100%; height:auto;">
-    </section>
-
-    <section>
-      <h2>CAD Drawings</h2>
-      <p>
-        <!-- Add your CAD images here -->
-        <img src="images/cad1.png" alt="CAD Drawing 1" style="max-width:100%; height:auto;">
-        <img src="images/cad2.png" alt="CAD Drawing 2" style="max-width:100%; height:auto;">
-      </p>
-    </section>
-
-    <p><a href="index.html">← Back to Home</a></p>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Timothy Cho</p>
-  </footer>
-</body>
-</html>
+    <
